@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4701854619C839F300548193 /* Via121_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4701854519C839F300548193 /* Via121_Logo.png */; };
 		47190EC419C024CD0064311B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47190EC319C024CD0064311B /* Foundation.framework */; };
 		47190EC619C024CD0064311B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47190EC519C024CD0064311B /* CoreGraphics.framework */; };
 		47190EC819C024CD0064311B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47190EC719C024CD0064311B /* UIKit.framework */; };
@@ -16,12 +17,15 @@
 		47190ED719C024CD0064311B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47190ED519C024CD0064311B /* Main_iPhone.storyboard */; };
 		47190EDA19C024CD0064311B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47190ED819C024CD0064311B /* Main_iPad.storyboard */; };
 		47190EDD19C024CD0064311B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47190EDC19C024CD0064311B /* ViewController.m */; };
-		47190EDF19C024CD0064311B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47190EDE19C024CD0064311B /* Images.xcassets */; };
 		47190EE619C024CD0064311B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47190EE519C024CD0064311B /* XCTest.framework */; };
 		47190EE719C024CD0064311B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47190EC319C024CD0064311B /* Foundation.framework */; };
 		47190EE819C024CD0064311B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47190EC719C024CD0064311B /* UIKit.framework */; };
 		47190EF019C024CD0064311B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47190EEE19C024CD0064311B /* InfoPlist.strings */; };
 		47190EF219C024CD0064311B /* firstappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47190EF119C024CD0064311B /* firstappTests.m */; };
+		47D3752A19C05FE20086F4C0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D3751C19C05FE20086F4C0 /* Reachability.m */; };
+		47D3753219C060E80086F4C0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D3753119C060E80086F4C0 /* SystemConfiguration.framework */; };
+		47D74A9319C2D2EF00BE4B0F /* newViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D74A9119C2D2EF00BE4B0F /* newViewController.m */; };
+		47D74A9419C2D2EF00BE4B0F /* newViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D74A9219C2D2EF00BE4B0F /* newViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		47190EC019C024CD0064311B /* firstapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4701854519C839F300548193 /* Via121_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Via121_Logo.png; sourceTree = "<group>"; };
+		47190EC019C024CD0064311B /* Via121.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Via121.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47190EC319C024CD0064311B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		47190EC519C024CD0064311B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		47190EC719C024CD0064311B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		47190ECB19C024CD0064311B /* firstapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "firstapp-Info.plist"; sourceTree = "<group>"; };
+		47190ECB19C024CD0064311B /* Via121-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Via121-Info.plist"; sourceTree = "<group>"; };
 		47190ECD19C024CD0064311B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47190ECF19C024CD0064311B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47190ED119C024CD0064311B /* firstapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "firstapp-Prefix.pch"; sourceTree = "<group>"; };
@@ -49,12 +54,18 @@
 		47190ED919C024CD0064311B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		47190EDB19C024CD0064311B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		47190EDC19C024CD0064311B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		47190EDE19C024CD0064311B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		47190EE419C024CD0064311B /* firstappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47190EE419C024CD0064311B /* Via121Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Via121Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47190EE519C024CD0064311B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		47190EED19C024CD0064311B /* firstappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "firstappTests-Info.plist"; sourceTree = "<group>"; };
+		47190EED19C024CD0064311B /* Via121Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Via121Tests-Info.plist"; sourceTree = "<group>"; };
 		47190EEF19C024CD0064311B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47190EF119C024CD0064311B /* firstappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstappTests.m; sourceTree = "<group>"; };
+		47D3751B19C05FE20086F4C0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability/Reachability/Reachability.h; sourceTree = "<group>"; };
+		47D3751C19C05FE20086F4C0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Reachability/Reachability/Reachability.m; sourceTree = "<group>"; };
+		47D3752F19C060BA0086F4C0 /* libsystem_configuration.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_configuration.dylib; path = usr/lib/system/libsystem_configuration.dylib; sourceTree = SDKROOT; };
+		47D3753119C060E80086F4C0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		47D74A9019C2D2EF00BE4B0F /* newViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newViewController.h; sourceTree = "<group>"; };
+		47D74A9119C2D2EF00BE4B0F /* newViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newViewController.m; sourceTree = "<group>"; };
+		47D74A9219C2D2EF00BE4B0F /* newViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = newViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D3753219C060E80086F4C0 /* SystemConfiguration.framework in Frameworks */,
 				47190EC619C024CD0064311B /* CoreGraphics.framework in Frameworks */,
 				47190EC819C024CD0064311B /* UIKit.framework in Frameworks */,
 				47190EC419C024CD0064311B /* Foundation.framework in Frameworks */,
@@ -84,7 +96,7 @@
 		47190EB719C024CD0064311B = {
 			isa = PBXGroup;
 			children = (
-				47190EC919C024CD0064311B /* firstapp */,
+				47190EC919C024CD0064311B /* Via121Inc */,
 				47190EEB19C024CD0064311B /* firstappTests */,
 				47190EC219C024CD0064311B /* Frameworks */,
 				47190EC119C024CD0064311B /* Products */,
@@ -94,8 +106,8 @@
 		47190EC119C024CD0064311B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47190EC019C024CD0064311B /* firstapp.app */,
-				47190EE419C024CD0064311B /* firstappTests.xctest */,
+				47190EC019C024CD0064311B /* Via121.app */,
+				47190EE419C024CD0064311B /* Via121Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +115,8 @@
 		47190EC219C024CD0064311B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47D3753119C060E80086F4C0 /* SystemConfiguration.framework */,
+				47D3752F19C060BA0086F4C0 /* libsystem_configuration.dylib */,
 				47190EC319C024CD0064311B /* Foundation.framework */,
 				47190EC519C024CD0064311B /* CoreGraphics.framework */,
 				47190EC719C024CD0064311B /* UIKit.framework */,
@@ -111,25 +125,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		47190EC919C024CD0064311B /* firstapp */ = {
+		47190EC919C024CD0064311B /* Via121Inc */ = {
 			isa = PBXGroup;
 			children = (
+				47EEDB4C19C1ABEA007CC3C8 /* iPad */,
 				47190ED219C024CD0064311B /* AppDelegate.h */,
 				47190ED319C024CD0064311B /* AppDelegate.m */,
 				47190ED519C024CD0064311B /* Main_iPhone.storyboard */,
 				47190ED819C024CD0064311B /* Main_iPad.storyboard */,
 				47190EDB19C024CD0064311B /* ViewController.h */,
 				47190EDC19C024CD0064311B /* ViewController.m */,
-				47190EDE19C024CD0064311B /* Images.xcassets */,
+				47D74A9019C2D2EF00BE4B0F /* newViewController.h */,
+				47D74A9119C2D2EF00BE4B0F /* newViewController.m */,
+				47D74A9219C2D2EF00BE4B0F /* newViewController.xib */,
+				47D3751B19C05FE20086F4C0 /* Reachability.h */,
+				47D3751C19C05FE20086F4C0 /* Reachability.m */,
+				4701854519C839F300548193 /* Via121_Logo.png */,
 				47190ECA19C024CD0064311B /* Supporting Files */,
 			);
+			name = Via121Inc;
 			path = firstapp;
 			sourceTree = "<group>";
 		};
 		47190ECA19C024CD0064311B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				47190ECB19C024CD0064311B /* firstapp-Info.plist */,
+				47190ECB19C024CD0064311B /* Via121-Info.plist */,
 				47190ECC19C024CD0064311B /* InfoPlist.strings */,
 				47190ECF19C024CD0064311B /* main.m */,
 				47190ED119C024CD0064311B /* firstapp-Prefix.pch */,
@@ -149,18 +170,25 @@
 		47190EEC19C024CD0064311B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				47190EED19C024CD0064311B /* firstappTests-Info.plist */,
+				47190EED19C024CD0064311B /* Via121Tests-Info.plist */,
 				47190EEE19C024CD0064311B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		47EEDB4C19C1ABEA007CC3C8 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47190EBF19C024CD0064311B /* firstapp */ = {
+		47190EBF19C024CD0064311B /* Via121 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47190EF519C024CD0064311B /* Build configuration list for PBXNativeTarget "firstapp" */;
+			buildConfigurationList = 47190EF519C024CD0064311B /* Build configuration list for PBXNativeTarget "Via121" */;
 			buildPhases = (
 				47190EBC19C024CD0064311B /* Sources */,
 				47190EBD19C024CD0064311B /* Frameworks */,
@@ -170,14 +198,14 @@
 			);
 			dependencies = (
 			);
-			name = firstapp;
+			name = Via121;
 			productName = firstapp;
-			productReference = 47190EC019C024CD0064311B /* firstapp.app */;
+			productReference = 47190EC019C024CD0064311B /* Via121.app */;
 			productType = "com.apple.product-type.application";
 		};
-		47190EE319C024CD0064311B /* firstappTests */ = {
+		47190EE319C024CD0064311B /* Via121Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47190EF819C024CD0064311B /* Build configuration list for PBXNativeTarget "firstappTests" */;
+			buildConfigurationList = 47190EF819C024CD0064311B /* Build configuration list for PBXNativeTarget "Via121Tests" */;
 			buildPhases = (
 				47190EE019C024CD0064311B /* Sources */,
 				47190EE119C024CD0064311B /* Frameworks */,
@@ -188,9 +216,9 @@
 			dependencies = (
 				47190EEA19C024CD0064311B /* PBXTargetDependency */,
 			);
-			name = firstappTests;
+			name = Via121Tests;
 			productName = firstappTests;
-			productReference = 47190EE419C024CD0064311B /* firstappTests.xctest */;
+			productReference = 47190EE419C024CD0064311B /* Via121Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 47190EBB19C024CD0064311B /* Build configuration list for PBXProject "firstapp" */;
+			buildConfigurationList = 47190EBB19C024CD0064311B /* Build configuration list for PBXProject "Via121" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +248,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47190EBF19C024CD0064311B /* firstapp */,
-				47190EE319C024CD0064311B /* firstappTests */,
+				47190EBF19C024CD0064311B /* Via121 */,
+				47190EE319C024CD0064311B /* Via121Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				47190EDA19C024CD0064311B /* Main_iPad.storyboard in Resources */,
-				47190EDF19C024CD0064311B /* Images.xcassets in Resources */,
 				47190ED719C024CD0064311B /* Main_iPhone.storyboard in Resources */,
 				47190ECE19C024CD0064311B /* InfoPlist.strings in Resources */,
+				4701854619C839F300548193 /* Via121_Logo.png in Resources */,
+				47D74A9419C2D2EF00BE4B0F /* newViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				47190EDD19C024CD0064311B /* ViewController.m in Sources */,
+				47D3752A19C05FE20086F4C0 /* Reachability.m in Sources */,
+				47D74A9319C2D2EF00BE4B0F /* newViewController.m in Sources */,
 				47190ED419C024CD0064311B /* AppDelegate.m in Sources */,
 				47190ED019C024CD0064311B /* main.m in Sources */,
 			);
@@ -272,7 +303,7 @@
 /* Begin PBXTargetDependency section */
 		47190EEA19C024CD0064311B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 47190EBF19C024CD0064311B /* firstapp */;
+			target = 47190EBF19C024CD0064311B /* Via121 */;
 			targetProxy = 47190EE919C024CD0064311B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,12 +419,16 @@
 		47190EF619C024CD0064311B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "firstapp/firstapp-Prefix.pch";
-				INFOPLIST_FILE = "firstapp/firstapp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "firstapp/Via121-Prefix.pch";
+				INFOPLIST_FILE = "firstapp/Via121-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = Via121;
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -401,12 +436,16 @@
 		47190EF719C024CD0064311B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "firstapp/firstapp-Prefix.pch";
-				INFOPLIST_FILE = "firstapp/firstapp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "firstapp/Via121-Prefix.pch";
+				INFOPLIST_FILE = "firstapp/Via121-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = Via121;
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -426,8 +465,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "firstappTests/firstappTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "firstappTests/Via121Tests-Info.plist";
+				PRODUCT_NAME = Via121Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,8 +483,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "firstapp/firstapp-Prefix.pch";
-				INFOPLIST_FILE = "firstappTests/firstappTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "firstappTests/Via121Tests-Info.plist";
+				PRODUCT_NAME = Via121Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -454,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47190EBB19C024CD0064311B /* Build configuration list for PBXProject "firstapp" */ = {
+		47190EBB19C024CD0064311B /* Build configuration list for PBXProject "Via121" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47190EF319C024CD0064311B /* Debug */,
@@ -463,21 +502,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47190EF519C024CD0064311B /* Build configuration list for PBXNativeTarget "firstapp" */ = {
+		47190EF519C024CD0064311B /* Build configuration list for PBXNativeTarget "Via121" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47190EF619C024CD0064311B /* Debug */,
 				47190EF719C024CD0064311B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		47190EF819C024CD0064311B /* Build configuration list for PBXNativeTarget "firstappTests" */ = {
+		47190EF819C024CD0064311B /* Build configuration list for PBXNativeTarget "Via121Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47190EF919C024CD0064311B /* Debug */,
 				47190EFA19C024CD0064311B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

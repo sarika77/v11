@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+@class Reachability;
+Reachability *internetreachable;
+Reachability *hostreachable;
+@interface ViewController : UIViewController<UIWebViewDelegate,UIAlertViewDelegate>
+@property (weak, nonatomic) IBOutlet UIWebView *webview;
 
-@interface ViewController : UIViewController
+
+//-(void)checkNetworkStatus:(NSNotification *)notice;
+
 
 @end
